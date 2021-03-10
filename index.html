@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+      <div class="score">
+        <p>You: <span id="userScore">0</span></p>
+        <p>Computer: <span id="pcScore">0</span></p>
+      </div>
+      <div class="options">
+        <div class="op-rock op">
+          <p></p>
+          <img class="img" id="rock" src="./assets/img/rock.png" alt="rock" />
+          <h2>Rock</h2>
+        </div>
+
+        <div class="op-paper op">
+          <p></p>
+          <img
+            class="img"
+            id="paper"
+            src="./assets/img/paper.png"
+            alt="paper"
+          />
+          <h2>Paper</h2>
+        </div>
+
+        <div class="op-scissors op">
+          <p></p>
+          <img
+            class="img"
+            id="scissors"
+            src="./assets/img/scissors.png"
+            alt="scissors"
+          />
+          <h2>Scissors</h2>
+        </div>
+      </div>
+
+      <div class="result-container">
+        <h2>Result</h2>
+        <div id="result"></div>
+      </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
